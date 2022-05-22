@@ -1,0 +1,170 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+#header {
+  transition: all 0.5s ease;
+  padding: 10px 10px;
+  color: #3AB540;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+  width: 400%;
+  height: 50%;
+
+}
+#head {
+  position: fixed;
+  z-index: 1;
+
+}
+.vine {
+  width: 25%;
+  height: 30%;
+}
+.linear { background : linear-gradient( 45deg, #8CFF92, bisque ) ; }
+.logo {
+  width: 30%;
+  height: 20%;
+}
+.faqimg {
+  width: 10%;
+  height: 10%;
+  float: center;
+}
+a{
+  text-decoration: none;
+}
+.navbar a:hover{
+  color: #fff; 
+
+}
+
+h1 {
+  padding: 20px 0px;
+  color: #3AB540;
+  font-size: 50px;
+  font-weight: 50;
+}
+h2 {
+  color: #3AB540;
+  font-size: 30px;
+  font-weight: 100px;
+  letter-spacing: 1px;
+  margin: 10;
+  padding: 25px 25px;
+  align-items: center;
+}
+
+.navbar {
+  padding: 0px;
+
+
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.navbar li {
+  position: relative;
+}
+
+.navbar a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 10px 30px;
+  font-size: 15px;
+  font-weight: 5;
+  color: #34BF3B;
+  white-space: nowrap;
+  transition: 0.3s;
+  letter-spacing: 0;
+}
+
+.padd-section {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  transition: 1s;
+}
+
+.padd-section h2, h3 {
+  font-weight: 500;
+
+}
+.fade-in{
+  animation: fade 1s;
+}
+
+
+
+@keyframes fade{
+  0%{opacity:0;}
+  25%{opacity:0.25;}
+  50%{opacity:0.5;}
+  75%{opacity:0.75;}
+  100%{opacity:1;}
+}
+
+.dropdown {
+
+  position: relative;
+  display: inline-block;
+  padding: 10px 10px;
+
+
+}
+
+.dropbtn {
+  padding: 10px;
+  border-style: hidden;
+  border-radius: 5px;
+  font-size: 20px;
+
+  color: #3AB540;
+}
+
+.dropdown-content {
+  display: block;
+  position: relative;
+}
+.dropdown:hover {
+  color: #fff;
+}
+
+.dropdown:hover .dropdown-content {
+  display:block;
+}
+
+p {
+  margin-left: 400px;
+  margin-right: 400px;
+  color: #3AB540;
+  padding: 25px 25px;
+  border-style: double;
+  border-color:  #D6C137
+}
+
+#resources a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 10px 30px;
+  font-size: 24px;
+  font-weight: 5;
+  color: #34BF3B;
+  white-space: nowrap;
+  transition: 0.3s;
+  letter-spacing: 0;
+}
+#resources a:hover{
+  color: #fff;
+}
